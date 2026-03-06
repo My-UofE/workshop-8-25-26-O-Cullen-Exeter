@@ -1,5 +1,5 @@
 
-public class MovableCircle implements Movable, Shape{ 
+public class MovableCircle implements Shape{ 
   private MovablePoint center;
   private int radius;
   
