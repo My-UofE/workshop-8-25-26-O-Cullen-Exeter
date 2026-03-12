@@ -1,3 +1,6 @@
+import shape.*;
+
+
 public class TestApp {
    public static void main(String[] args) {
     Movable m1 = new MovablePoint(50, 60, 10, 15); // upcast
@@ -13,7 +16,7 @@ public class TestApp {
     System.out.println(m2);
     System.out.printf("Area:%.3f, Perimeter:%.3f%n",m2.area(),m2.perimeter());
    
-   Movable m3 = new MovableCircle(0, 0, 5, 5, 20); // upcast
+    Movable m3 = new MovableCircle(0, 0, 5, 5, 20); // upcast
     System.out.println(m3);
     m3.moveRight();
     m3.moveUp();
